@@ -47,14 +47,3 @@ venv\Scripts\activate        # Windows
 # or
 source venv/bin/activate     # macOS / Linux
 pip install -r requirements.txt
-
-### 🔐 Environment Configuration
-
-This project uses a `.env` file to store private configuration variables, such as your Hugging Face API key.  
-Since `.env` files are excluded from version control for security, you’ll need to **create your own** before running the project.
-
-Create a new file in the project root named `.env` and add:
-
-```bash
-HUGGINGFACEHUB_API_TOKEN=your_huggingface_api_key_here
-
