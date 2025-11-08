@@ -1,0 +1,37 @@
+# Python cache and environment folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Environment variables or secrets
+.env
+*.env
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ChromaDB vector store and cache
+chroma/
+*.chroma
+*.db
+
+# Logs, checkpoints, or temporary data
+logs/
+*.log
+*.tmp
+*.ckpt
+
+# Jupyter / Streamlit / misc
+.ipynb_checkpoints/
+.streamlit/
